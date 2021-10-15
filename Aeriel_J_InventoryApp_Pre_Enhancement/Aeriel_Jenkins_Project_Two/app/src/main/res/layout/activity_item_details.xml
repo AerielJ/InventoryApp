@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/details_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:navigationIcon="@drawable/ic_back_arrow"
+        app:title="Item Details"
+        app:titleTextColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-32dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:useDefaultMargins="true"
+        app:layout_constraintTop_toBottomOf="@+id/details_toolbar"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:inputType="textPersonName"
+            android:layout_gravity="fill_horizontal" />
+
+        <TextView
+            android:id="@+id/textViewQuantity"
+            android:text="@string/quantity" />
+
+        <EditText
+            android:id="@+id/editTextQuantity"
+            android:layout_gravity="fill_horizontal"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonDone"
+            android:layout_column="1"
+            android:layout_gravity="right"
+            android:onClick="onDoneClicked"
+            android:text="@string/done" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

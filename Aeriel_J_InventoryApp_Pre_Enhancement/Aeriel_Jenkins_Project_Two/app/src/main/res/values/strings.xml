@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="question">Turn on SMS notifications?</string>
+    <string name="question_message">Inventory App would like permission to communicate with the text messaging app</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="destination_1">Inventory Items</string>
+    <string name="destination_2">Notifications</string>
+    <string name="header_title">Username</string>
+    <string name="title_3">Log Out</string>
+    <string name="sms_notifications">SMS Notifications</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="add_item">Add item</string>
+    <string name="name">Name:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="done">Done</string>
+    <string name="inventory_app">Inventory App</string>
+    <string name="username">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="create_login">Create Login</string>
+    <string name="delete">Delete</string>
+    <string name="notificationsDescriptionTextView">Turning on SMS notifications allows the Inventory App to notify you via text when the quantity of an inventory item is low.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Drawer open</string>
+    <string name="navigation_drawer_close">Drawer closed</string>
+</resources>
